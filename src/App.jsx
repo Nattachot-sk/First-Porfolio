@@ -46,7 +46,7 @@ function App() {
       <div className="w-full h-[650px] bg-black">
         <About />
       </div>
-      <div>
+      <div className="w-full h-[750px]">
         <Skill />
       </div>
 

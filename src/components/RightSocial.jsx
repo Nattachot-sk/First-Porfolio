@@ -4,6 +4,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faTiktok } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function RightSocial() {
   return (
@@ -36,6 +37,13 @@ function RightSocial() {
           <button>
             <a href="">
               <span><FontAwesomeIcon icon={faTiktok} /></span>
+            </a>
+          </button>
+        </div>
+        <div className="mt-10">
+          <button>
+            <a href="">
+              <span><FontAwesomeIcon icon={faGithub} /></span>
             </a>
           </button>
         </div>

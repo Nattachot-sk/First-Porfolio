@@ -2,7 +2,9 @@ import React from 'react'
 
 function Skill() {
   return (
-    <div>Skill</div>
+    <div className='w-full h-full'>
+
+    </div>
   )
 }
 
