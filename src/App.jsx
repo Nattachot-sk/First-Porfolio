@@ -8,6 +8,7 @@ import Mybio from "./components/Mybio";
 import RightSocial from "./components/RightSocial";
 import About from "./components/About";
 import Skill from "./components/Skill";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -50,9 +51,9 @@ function App() {
         <Skill />
       </div>
 
-      <footer>
-        
-      </footer>
+      <div className="w-full h-[350px] bg-black">
+        <Footer />
+      </div>
     </div>
   );
 }
