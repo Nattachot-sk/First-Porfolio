@@ -26,7 +26,7 @@ function Skill() {
     {
       id: "5",
       name: "next",
-      images: "/img/logofend/next-js.png",
+      images: "/img/logofend/next-js-logo.png",
     },
     {
       id: "6",
@@ -78,7 +78,7 @@ function Skill() {
     <div className="w-full h-full">
       <div className="grid grid-cols-2 grid-rows-1 mx-auto w-[1200px] h-full p-20">
         <div className="col-span-1  w-full h-full relative text-wrap p-5">
-          <div className="bg-black text-white text-center shadow-sm p-2 shadow-white">frontend</div>
+          <div className="bg-black text-white text-center shadow-sm p-2 shadow-white">Frontend</div>
           <div className="relative">
             <ul className="grid grid-cols-3 justify-center justify-items-center w-full h-full">
               {frontendData.map((fend) => {
@@ -95,7 +95,7 @@ function Skill() {
           </div>
         </div>
         <div className="col-span-1  relative p-5">
-          <div className="bg-black text-white text-center shadow-sm p-2 shadow-white"><h1></h1>backend</div>
+          <div className="bg-black text-white text-center shadow-sm p-2 shadow-white"><h1></h1>Backend</div>
           <div className="relative">
             <ul className="grid grid-cols-3 justify-center justify-items-center w-full h-full">
               {backendData.map((fend) => {
