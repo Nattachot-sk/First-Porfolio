@@ -84,7 +84,7 @@ function Skill() {
               {frontendData.map((fend) => {
                 return (
                   <li
-                    className="w-32 h-32 mx-[20px] bg-gray-100 mt-3 rounded-md flex shadow-lg shadow-black p-5"
+                    className="w-32 h-32 mx-[20px] bg-gray-100 mt-3 rounded-md flex shadow-lg shadow-blue-500 p-5"
                     key={fend.id}
                   >
                     <img className="" src={fend.images} alt="" />
@@ -101,7 +101,7 @@ function Skill() {
               {backendData.map((fend) => {
                 return (
                   <li
-                    className="w-32 h-32 mx-[20px] bg-gray-100 mt-3 rounded-md flex shadow-lg shadow-black p-5"
+                    className="w-32 h-32 mx-[20px] bg-gray-100 mt-3 rounded-md flex shadow-lg shadow-blue-500 p-5"
                     key={fend.id}
                   >
                     <img className="" src={fend.images} alt="" />
@@ -120,7 +120,7 @@ function Skill() {
               {toolsData.map((tools) => {
                 return (
                   <li
-                    className="w-32 h-32 mx-[20px] bg-gray-100 mt-3 rounded-md flex shadow-lg shadow-black p-5"
+                    className="w-32 h-32 mx-[20px] bg-gray-100 mt-3 rounded-md flex shadow-lg shadow-blue-500 p-5"
                     key={tools.id}
                   >
                     <img className="" src={tools.images} alt="" />
