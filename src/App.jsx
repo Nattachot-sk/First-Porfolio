@@ -9,6 +9,9 @@ import RightSocial from "./components/RightSocial";
 import About from "./components/About";
 import Skill from "./components/Skill";
 import Footer from "./components/Footer";
+import Myworking from "./components/Myworking";
+
+
 
 function App() {
   return (
@@ -50,8 +53,10 @@ function App() {
       <div className="w-full h-[750px]">
         <Skill />
       </div>
-
-      <div className="w-full h-[350px] bg-black">
+      <div className="w-full h-full bg-amber-200">
+        <Myworking />
+      </div>
+      <div className="w-full h-[350px] ">
         <Footer />
       </div>
     </div>
