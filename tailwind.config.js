@@ -12,6 +12,9 @@ export default {
         Poetsen: ["Poetsen One", 'sans-serif'],
         jose: ["Josefin Sans", 'sans-serif'],
       },
+      animation:{
+          "spin-slow": "spin 1s linear infinite"
+      },
     },
   },
   plugins: [],

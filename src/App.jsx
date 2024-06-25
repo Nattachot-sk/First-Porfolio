@@ -28,13 +28,13 @@ function App() {
         </div>
       </header>
 
-      <aside className="w-full h-[950px] flex">
-        <div className="w-[50%] h-full ">
-          <div className="w-[500px] h-full m-auto pt-[250px]">
+      <aside className="w-full h-[937px] flex">
+        <div className="w-[50%] h-full">
+          <div className="w-[650px] pl-10 h-full m-auto pt-[250px]">
             <Mybio />
           </div>
         </div>
-        <div>
+        <div className="">
           <FisrtPerson />
         </div>
         <div className="reletive">

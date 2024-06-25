@@ -76,9 +76,17 @@ function Skill() {
 
   return (
     <div className="w-full h-full">
-      <div className="grid grid-cols-2 grid-rows-1 mx-auto w-[1200px] h-full p-20">
+      <div className="relative w-full">
+        <div className="relative mt-5 mx-auto w-[120px] h-10 text-center content-center rounded-md bg-indigo-500 shadow-md shadow-cyan-500/50 border-t-2 border-t-blue-500 ">
+          <h1 className="text-2xl text-white">Skill</h1>
+        </div>
+      </div>
+
+      <div className="grid grid-cols-2 grid-rows-1 mx-auto w-[1200px] h-full pl-20 pr-20 pb-20">
         <div className="col-span-1  w-full h-full relative text-wrap p-5">
-          <div className="bg-black text-white text-center shadow-sm p-2 shadow-white">Frontend</div>
+          <div className="bg-black text-white text-center shadow-sm p-2 shadow-white">
+            Frontend
+          </div>
           <div className="relative">
             <ul className="grid grid-cols-3 justify-center justify-items-center w-full h-full">
               {frontendData.map((fend) => {
@@ -95,7 +103,9 @@ function Skill() {
           </div>
         </div>
         <div className="col-span-1  relative p-5">
-          <div className="bg-black text-white text-center shadow-sm p-2 shadow-white"><h1></h1>Backend</div>
+          <div className="bg-black text-white text-center shadow-sm p-2 shadow-white">
+            <h1></h1>Backend
+          </div>
           <div className="relative">
             <ul className="grid grid-cols-3 justify-center justify-items-center w-full h-full">
               {backendData.map((fend) => {

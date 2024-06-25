@@ -4,8 +4,8 @@ function About() {
   return (
     <div className="w-full h-full text-white">
       <div className="w-[80%] h-full p-10 mx-auto relative">
-        <div className="relative -left-20 mb-5">
-          <div className="w-[120px] h-10 text-center content-center rounded-md bg-indigo-500 shadow-md shadow-cyan-500/50 border-t-2 border-t-blue-500">
+        <div className="relative mb-5">
+          <div className="w-[120px] relative mx-auto h-10 text-center content-center rounded-md bg-indigo-500 shadow-md shadow-cyan-500/50 border-t-2 border-t-blue-500">
             <h1 className="text-2xl">About</h1>
           </div>
         </div>
